@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+}
+.head{
+  height: 550px;
+  text-align: center;
+  font-family: 'Cantata One', serif;
+ color: white;
+  padding: 100px;
+  background-image: url("../images/darktree.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+.head h2{
+  margin-top: 150px;
+}
+.navigation li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+.a1{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  position: relative;
+  bottom: 55px;
+}
+.a1:hover{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+#pro{
+  color: #8D8DAA;
+  text-decoration: underline;
+}
+.middle{
+  padding: 80px;
+  background-image: url("../images/wg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.p1,.p2{
+margin-left: 50px;
+}
+
+footer{
+  padding: 50px;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Jost', sans-serif;
+}
+footer h3{
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+
+}
